@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+      background-color: rgb(5, 34, 57);
+      height: 80px;
+}
+header h1{
+    position:absolute;
+    left:3vw;
+    top:0;
+    line-height: 80px;
+    font-size: 40px;
+    color:white;
+}
+header a{
+    font-size: 20px;
+    text-decoration:none;
+    color:white;
+}
+header ul{
+    position:absolute;
+    right:1vw;
+    top:0;
+    line-height: 80px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display:inline;
+    margin-right: 4vw;
+}
+.introduce{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center; /* 垂直居中对齐 */
+}
+.introduce h1{
+    font-size: 30px;
+}
+.introduce h2{
+    font-size: 20px;
+}
+.introduce img{
+    width: 30%;
+    height: auto;
+}
+.introduce div {
+    flex: 2; /* 让文本部分占据剩余空间 */
+    padding-right: 30px; /* 可选：为了产生一些文本和图像之间的空间 */
+}
